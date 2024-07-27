@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Standings - Football Data Hub</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Landing Page</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="header-container">
+            <h1>FOOTBALL Data Hub - Landing Page</h1>
+            <div class="checkbox-container">
+                <input type="checkbox" id="show-fav-checkbox">
+                <label for="show-fav-checkbox">Show Favorite Leagues only</label>
+            </div>
+        </div>
+    
+        <!-- League Search Input -->
+        <div class="league-search-container">
+            <input type="text" id="league-search-input" placeholder="Add another favorite... (min. 3 characters)">
+        </div>
+    
+        <!-- Search Results Section -->
+        <div id="search-results" class="search-results-container">
+            <!-- Search results will be populated by script.js -->
+        </div>
+    
+        <!-- Standings Section -->
+        <div class="current-selection-container">
+            <h2>Current Selection</h2>
+            <table id="current-selection-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>League</th>
+                        <th>Country</th>
+                        <th>Type</th>
+                        <th>Follow</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table rows will be populated by standings.js -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div id="notification-container" class="notification-container"></div>
+
+    <footer class="api-footer">
+        <h3>API Used: API-Football</h3>
+        <p>API Football is a service that provides data about football matches, teams, players, and more. It is a paid service, but you can use it for free for a limited number of requests.<br>
+        For more information, click <a href="https://rapidapi.com/api-sports/api/api-football">here</a>.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+    <script src="scripts/config.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

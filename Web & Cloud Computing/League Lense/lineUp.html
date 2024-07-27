@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Standings - Football Data Hub</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="fixtures.html">Back to Fixtures</a></li>
+        </ul>
+    </nav>
+
+    <h1>FOOTBALL Data Hub - Line-up</h1>
+    <div class="teams-container">
+        <!-- Team 1 Info -->
+        <section id="team1" class="team-info">
+            <h2 id="team1-name"></h2> <!-- Team name and formation will be set via JS -->
+            <h3 id="team1-coach"></h3> <!-- Coach name will be set via JS -->
+            <div class="formation-container"> <!-- Container for the formation -->
+                <div id="team1-formation" class="formation"></div> <!-- Formation grid will be generated via JS -->
+            </div>
+            <div class="lineup-container"> <!-- Container for lineup and subs -->
+                <div class="lineup">
+                    <h3>Starting XI</h3>
+                    <ul id="team1-starting" class="starting"></ul> <!-- Starting players will be listed via JS -->
+                </div>
+                <div class="lineup">
+                    <h3>Substitutes</h3>
+                    <ul id="team1-subs" class="substitutes"></ul> <!-- Substitutes will be listed via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Team 2 Info -->
+        <section id="team2" class="team-info">
+            <h2 id="team2-name"></h2> <!-- Team name and formation will be set via JS -->
+            <h3 id="team2-coach"></h3> <!-- Coach name will be set via JS -->
+            <div class="formation-container"> <!-- Container for the formation -->
+                <div id="team2-formation" class="formation"></div> <!-- Formation grid will be generated via JS -->
+            </div>
+            <div class="lineup-container"> <!-- Container for lineup and subs -->
+                <div class="lineup">
+                    <h3>Starting XI</h3>
+                    <ul id="team2-starting" class="starting"></ul> <!-- Starting players will be listed via JS -->
+                </div>
+                <div class="lineup">
+                    <h3>Substitutes</h3>
+                    <ul id="team2-subs" class="substitutes"></ul> <!-- Substitutes will be listed via JS -->
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="api-footer">
+        <h3>API Used: API-Football</h3>
+        <p>API Football is a service that provides data about football matches, teams, players, and more. It is a paid service, but you can use it for free for a limited number of requests.<br>
+        For more information, click <a href="https://rapidapi.com/api-sports/api/api-football">here</a>.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/config.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>

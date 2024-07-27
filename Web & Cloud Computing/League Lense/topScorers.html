@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Standings - Football Data Hub</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Landing Page</a></li>
+            <li><a href="standings.html">Standings</a></li>
+            <li><a href="topScorers.html" class="active">Top Scorers</a></li>
+            <li><a href="topAssists.html">Top Assist Givers</a></li>
+            <li><a href="fixtures.html">Fixtures</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>FOOTBALL Data Hub - Top Scorers</h1>
+    
+        <!-- Season Selector -->
+        <div class="search-group-container">
+    
+            <!-- Season Selection -->
+            <div class="season-selector-container">
+                <label for="season-selector">Select Season:</label>
+                <select id="season-selector">
+                    <!-- Options will be populated by script.js -->
+                </select>
+            </div>
+
+        </div>
+
+        <!-- Top Scorers Section -->
+        <div class="top-scorers-container">
+            <h2>Top Scorers</h2>
+            <table id="top-scorers-table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th>Goals</th>
+                        <th>Assists</th>
+                        <th>Scorer Points</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Table rows will be populated by standings.js -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer class="api-footer">
+        <h3>API Used: API-Football</h3>
+        <p>API Football is a service that provides data about football matches, teams, players, and more. It is a paid service, but you can use it for free for a limited number of requests.<br>
+        For more information, click <a href="https://rapidapi.com/api-sports/api/api-football">here</a>.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/config.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
