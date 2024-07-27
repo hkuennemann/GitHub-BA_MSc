@@ -25,6 +25,8 @@ The second part includes examining internet usage data from 1995 to 2012. A logi
 It involves creating indices to support queries about Bitcoin addresses, such as account balances and average transaction values. Classification models are built to label addresses based on transaction data, and clustering techniques like K-means are used to group addresses without predefined labels.
 Additionally, the project leverages GPU acceleration with cuDF and cuGraph to expedite network analysis and centrality metric calculations, enhancing the understanding of Bitcoin addresses' roles in transactions.
 
+- **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `Spark`, `regression`, `Dimensionality reduction (PCA, t-SNE)`, `classification techniques`, `clustering techniques`, `Data visualization`, `GPU acceleration (cuDF, cuML, cuGraph)`.
+
 
 ### Data Curation
 
@@ -45,6 +47,8 @@ Additionally, the project leverages GPU acceleration with cuDF and cuGraph to ex
   - `5.Cars_analysis` (old exam): This project analyses listings of used cars on the OLX platform in Portugal. The dataset is divided into three parts, each with specific errors that need to be resolved before analysis. The tasks include data cleaning, merging the datasets, and answering questions about car prices, popular models, and sales statistics to understand the market dynamics on the OLX platform.
 
   - `6.Fragrance_analysis` (old exam): The project involves analyzing a dataset of perfume listings to address various questions about ratings, popularity, and note preferences. Key tasks include cleaning the data by correcting missing values and formatting issues, identifying the top-rated brands, categorizing perfumes based on their popularity, and examining how the length of perfume names correlates with their ratings. The project also involves analyzing the most popular notes for Chanel perfumes and designing recommendations for perfumes similar to Chanel No.5 based on note combinations and popularity.
+ 
+- **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `data cleaning`, `Data visualization`.
 
 
 ### Data Visualization
@@ -57,6 +61,8 @@ Additionally, the project leverages GPU acceleration with cuDF and cuGraph to ex
   
   - `Olympic Games Dashboard`: The project uses interactive Tableau dashboards to analyze Olympic data, focusing on athlete physical attributes and country performance. It examines variations in attributes such as age, height, and weight across different sports categories and their relationship with medal wins. Additionally, it investigates the impact of hosting the Olympics on a country's medal count, showing how this effect has evolved over time.
 
+- **Skills aquired:** `Tableau`, `Data visualization`, `Use of visual variables (color, size, shape)`, `Techniques for visualizing multivariate data`, `Storytelling with data visualizations`.
+
 
 ### Advanced Programming
 
@@ -66,7 +72,9 @@ Additionally, the project leverages GPU acceleration with cuDF and cuGraph to ex
   
 - **Projects:**
   
-  - ´Project´: Brief description
+  - `Project Icaras`: This project focused on the comprehensive analysis of commercial air travel data, with an emphasis on sustainability. Utilizing a dataset from the International Air Transport Association, the project aimed to provide insights into flight patterns, airplane usage, and potential decarbonization strategies. Key functionalities included the calculation of distances between airports, plotting of flight routes, and the use of an LLM for aircraft and airport information.
+
+- **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `Data visualization`, `Machine learning`, `API integration`, `Unit testing`, `Conda environment management`, `Documentation with Sphinx`, `Git`, `GitLab`.
 
 
 ### Network Analytics
