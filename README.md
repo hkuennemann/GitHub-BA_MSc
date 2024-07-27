@@ -94,25 +94,31 @@ Class-material: https://gitlab.com/adpro1/adpro2024
 
 - **Folder:** `Network Analytics`
   
-- **Description:**
+- **Description:** This course covered foundational concepts in network science and provided methods and procedures for analyzing large-scale social networks. Topics included clustering, information diffusion, organizational design, viral marketing, and the dynamics of social media.
   
 - **Projects:**
   
   - ´Project´: Brief description
+ 
+  - ´Project´: Brief description
+
+- **Skills acquired:** 
 
 
 ### Web & Cloud Computing
 
 - **Folder:** `Web & Cloud Computing`
   
-- **Description:**
+- **Description:** This course covered the fundamentals of web applications and the key architectural, functional and technological principles for developing state-of-the-art web and cloud applications. This course had a particular focus on client-side applications in scenarios that leverage data science and big data integration.
   
 - **Projects:**
   
-  - ´Project´: Brief description
+  - ´League Lense´: In this project I developed a dynamic football website using JavaScript, HTML, and CSS, integrating data from the API-Football (RESTful). The site enabled users to select specific seasons and leagues to view detailed standings, top scorers, top assist providers, and matchday results. Additionally, users could explore individual games for more in-depth information, including the starting 11 players and their formations.
+
+- **Skills acquired:** `JavaScript`, `DOM manipulation`, `dynamic content`, `fetch API`, `Promises`, `async/await`, `HTML structure`, `CSS integration`.
 
 
-### Machine Learning
+### Machine Learning -- TODO --
 
 - **Folder:** `Machine Learning`
   
@@ -121,3 +127,15 @@ Class-material: https://gitlab.com/adpro1/adpro2024
 - **Projects:**
   
   - ´Project´: Brief description
+ 
+  - ´Project´: Brief description
+ 
+  - ´Project´: Brief description
+ 
+  - ´Project´: Brief description
+ 
+  - ´Project´: Brief description
+ 
+  - ´Project´: Brief description
+
+- **Skills acquired:** 
