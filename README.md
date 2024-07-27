@@ -115,11 +115,11 @@ Class-material: https://gitlab.com/adpro1/adpro2024
   
 - **Projects:**
   
-  - ´Project´: Brief description
+  - ´Movie_networks´: This project focused on evaluating the significance of movies released between 2010 and 2019 using data analysis and network analysis techniques. It involved preparing and manipulating movie and actor datasets, creating visualizations to uncover patterns, and constructing and analyzing bipartite graphs to explore connections between movies and actors. The project also included calculating various centrality measures to determine the most influential movies and actors, as well as comparing network properties with those of random graphs. 
  
-  - ´Project´: Brief description
+  - ´Dating_platforms´: This project analyzed the behavior of users on an online dating platform by examining "likes" and invites between members. It involved building and evaluating directed and undirected graphs to represent invites and likes networks, respectively, and exploring concepts such as homophily, clustering coefficients, and network structures. The project also included testing hypotheses about network properties and comparing the dating platform's network to theoretical models of online networks.
 
-- **Skills acquired:** 
+- **Skills acquired**: `Network analysis`, `Centrality measures`, `Graph theory`, `R programming`, `igraph package`, `ggplot2 package`. 
 
 
 ### Web & Cloud Computing
