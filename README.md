@@ -1,5 +1,15 @@
-# GitHub Repository for MSc Business Analytics program
-This repository contains the projects that I completed during my MSc Business Analytics program. It includes the coding work for the coding-intensive courses I took during my master's program.
+# GitHub Repository for MSc Business Analytics Program
+
+Welcome to my GitHub repository showcasing projects from my MSc Business Analytics studies. This repository features the coding work from various programming-intensive courses completed during the program.
+
+## Repository Structure
+
+The repository is organized into folders, each corresponding to a specific course. Inside these folders, you'll find:
+
+- **Projects:** Coding assignments and projects completed for the course.
+- **Class Materials:** Relevant materials such as lecture notes or example code, where applicable.
+
+To navigate the repository, simply browse to the relevant course folder to view the associated projects and materials. Each project includes its own README file with detailed instructions on setup and usage.
 
 
 ## Courses and Projects
@@ -14,16 +24,16 @@ Below is a list of the courses, each represented in different folders within thi
 - **Description:** The course focused on advanced data analysis techniques and their applications in machine learning. It began with programming for data analysis, progressed through distributed data analysis and SQL, and covered key concepts such as curve fitting and regression. Students delved into modeling dynamic systems, dimensionality reduction, classification, clustering, and distributed machine learning, equipping students with a broad array of techniques for handling various types of data. Finally, it introduced graph algorithms and cloud-based data analysis, highlighting modern approaches to managing and analyzing large datasets.
   
 - **Projects:**
-  - `1.OlympicGames_analysis`: This analysis of Olympic Games data served as an introduction to Python and Pandas. It explores athlete participation, medal counts, and trends over time. Key tasks include analyzing participation numbers in Summer and Winter Olympics, identifying the youngest and oldest Gold medalists, and determining the top athletes with the most Gold medals. The notebook also examines medal counts relative to country populations, trends in medal counts and athlete participation, and relations between different countries' performances. Additionally, some analyses are reimplemented using Spark SQL.
+  - `1.OlympicGames_analysis`: This analysis of Olympic Games data served as an introduction to Python and Pandas. It explored athlete participation, medal counts, and trends over time. Key tasks included analyzing participation numbers in Summer and Winter Olympics, identifying the youngest and oldest Gold medalists, and determining the top athletes with the most Gold medals. The notebook also examined medal counts relative to country populations, trends in medal counts and athlete participation, and relations between different countries' performances. Additionally, some analyses are reimplemented using Spark SQL.
     
-  - `2.Children_weight_prediction`: This project involves predicting the weight of children up to 24 months old based on their age using data from the National Health and Nutrition Examination Survey (2017-2018). The dataset includes age in months and weight in kilograms. The analysis starts with creating a linear regression model to predict weight from age, including plotting the data to assess correlation and evaluating model performance. Additionally, the project explores polynomial regression models of degrees 1 through 10 to determine if a polynomial model offers a better fit compared to the linear model, and identifies the coefficients of the best-performing polynomial model.
+  - `2.Children_weight_prediction`: This project involved predicting the weight of children up to 24 months old based on their age using data from the National Health and Nutrition Examination Survey (2017-2018). The analysis started with creating a linear regression model to predict weight from age, including plotting the data to assess correlation and evaluating model performance. Additionally, the project explored polynomial regression models of degrees 1 through 10 to determine if a polynomial model offers a better fit compared to the linear model, and identified the coefficients of the best-performing polynomial model.
     
-  - `3.Cancer_classification`: The project is split into two parts. The first involves analyzing the Breast Cancer dataset, which classifies tumors as malignant or benign based on features from digitized breast mass images. The dataset is reduced from thirty dimensions to two using PCA and t-SNE approaches, and the results are compared to assess how well the two tumor types are separated. Normalization of input features is performed before applying these techniques.
-The second part includes examining internet usage data from 1995 to 2012. A logistic growth model is fitted to this data to predict internet user growth. The model’s fit is visualized alongside the actual data, and the parameters of the logistic function are interpreted. Residuals are computed and plotted to evaluate the model’s adequacy, and the 95% confidence intervals for the model parameters are calculated under the assumption of consistent random error distribution.
+  - `3.Cancer_classification`: The project was split into two parts. The first involved analyzing the Breast Cancer dataset, which classifies tumors as malignant or benign based on features from digitized breast mass images. The dataset was reduced from thirty dimensions to two using PCA and t-SNE approaches, and the results were compared to assess how well the two tumor types are separated. Normalization of input features was performed before applying these techniques.
+The second part included examining internet usage data from 1995 to 2012. A logistic growth model was fitted to this data to predict internet user growth. The model’s fit was visualized alongside the actual data, and the parameters of the logistic function were interpreted. Residuals were computed and plotted to evaluate the model’s adequacy, and the 95% confidence intervals for the model parameters were calculated under the assumption of consistent random error distribution.
 
-  - `4.Bitcoin_analysis`: This project analyzes Bitcoin transactions to gain insights into cryptocurrency behavior. It includes comparing Spark and Pandas for computing transaction statistics, such as identifying the largest transactions and tracking trends over time.
-It involves creating indices to support queries about Bitcoin addresses, such as account balances and average transaction values. Classification models are built to label addresses based on transaction data, and clustering techniques like K-means are used to group addresses without predefined labels.
-Additionally, the project leverages GPU acceleration with cuDF and cuGraph to expedite network analysis and centrality metric calculations, enhancing the understanding of Bitcoin addresses' roles in transactions.
+  - `4.Bitcoin_analysis`: This project analyzed Bitcoin transactions to gain insights into cryptocurrency behavior. It included comparing Spark and Pandas for computing transaction statistics, such as identifying the largest transactions and tracking trends over time.
+It involved creating indices to support queries about Bitcoin addresses, such as account balances and average transaction values. Classification models were built to label addresses based on transaction data, and clustering techniques like K-means were used to group addresses without predefined labels.
+Additionally, the project leveraged GPU acceleration with cuDF and cuGraph to expedite network analysis and centrality metric calculations, enhancing the understanding of Bitcoin addresses' roles in transactions.
 
 - **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `Spark`, `regression`, `Dimensionality reduction (PCA, t-SNE)`, `classification techniques`, `clustering techniques`, `Data visualization`, `GPU acceleration (cuDF, cuML, cuGraph)`.
 
@@ -36,17 +46,17 @@ Additionally, the project leverages GPU acceleration with cuDF and cuGraph to ex
 
 - **Projects:**
   
-  - `1.Intro_dataCuration`: This project served as an introduction to fundamental Python concepts. It includes decoding a geohashed location using the coordinates and the DJIA value, calculating Euler's number using factorials, estimating Pi with Monte Carlo simulations, and applying convolution filters to an image using `numpy` and `Pillow`.
+  - `1.Intro_dataCuration`: This project served as an introduction to fundamental Python concepts. It included decoding a geohashed location using the coordinates and the DJIA value, calculating Euler's number using factorials, estimating Pi with Monte Carlo simulations, and applying convolution filters to an image using `numpy` and `Pillow`.
 
-  - `2.Covid_analysis`: This project involves analyzing and cleaning COVID-19 daily reports using `pandas`. The dataset contains various columns detailing daily COVID-19 statistics for different regions. The tasks include reading the dataset, cleaning and correcting data issues, filtering records for a specific year, and performing various analyses such as finding average and median values, identifying outliers, and calculating correlations. Additionally, it involves creating new columns based on existing data, computing custom metrics, and categorizing data into discrete bins for error analysis. The project leverages `pandas` functionalities to manipulate, clean, and analyze the data efficiently.
+  - `2.Covid_analysis`: This project involved analyzing and cleaning COVID-19 daily reports using `pandas`. The dataset contains various columns detailing daily COVID-19 statistics for different regions. The tasks included reading the dataset, cleaning and correcting data issues, filtering records for a specific year, and performing various analyses such as finding average and median values, identifying outliers, and calculating correlations. Additionally, it involved creating new columns based on existing data, computing custom metrics, and categorizing data into discrete bins for error analysis. 
 
-  - `3.Movie_recommendation` (old exam): This project involves building a movie recommendation system using the MovieLens dataset. The tasks include cleaning the data, analyzing movie ratings, and implementing a collaborative filtering method for recommendations. The movies in the dataset are categorized into time intervals based on their release years, and a simple recommendation system is created to suggest movies based on user preferences.
+  - `3.Movie_recommendation` (old exam): This project involved building a movie recommendation system using the MovieLens dataset. The tasks included cleaning the data, analyzing movie ratings, and implementing a collaborative filtering method for recommendations. The movies in the dataset are categorized into time intervals based on their release years, and a simple recommendation system was created to suggest movies based on user preferences.
 
-  - `4.Titanic_analysis` (old exam): This project analyses the Titanic dataset containing detailed passenger information. The project involves data cleaning, analysis, and answering specific questions about the passengers, such as their demographics, survival rates, and fare differences. The tasks include correcting erroneous values in the data, calculating percentages and averages, and comparing survival rates across different passenger groups and ticket fare quintiles.
+  - `4.Titanic_analysis` (old exam): This project analysed the Titanic dataset containing detailed passenger information. The project involved data cleaning, analysis, and answering specific questions about the passengers, such as their demographics, survival rates, and fare differences. The tasks included correcting erroneous values in the data, calculating percentages and averages, and comparing survival rates across different passenger groups and ticket fare quintiles.
 
-  - `5.Cars_analysis` (old exam): This project analyses listings of used cars on the OLX platform in Portugal. The dataset is divided into three parts, each with specific errors that need to be resolved before analysis. The tasks include data cleaning, merging the datasets, and answering questions about car prices, popular models, and sales statistics to understand the market dynamics on the OLX platform.
+  - `5.Cars_analysis` (old exam): This project analysed listings of used cars on the OLX platform in Portugal. The dataset is divided into three parts, each with specific errors that need to be resolved before analysis. The tasks included data cleaning, merging the datasets, and answering questions about car prices, popular models, and sales statistics to understand the market dynamics on the OLX platform.
 
-  - `6.Fragrance_analysis` (old exam): The project involves analyzing a dataset of perfume listings to address various questions about ratings, popularity, and note preferences. Key tasks include cleaning the data by correcting missing values and formatting issues, identifying the top-rated brands, categorizing perfumes based on their popularity, and examining how the length of perfume names correlates with their ratings. The project also involves analyzing the most popular notes for Chanel perfumes and designing recommendations for perfumes similar to Chanel No.5 based on note combinations and popularity.
+  - `6.Fragrance_analysis` (old exam): The project involved analyzing a dataset of perfume listings to address various questions about ratings, popularity, and note preferences. Key tasks included cleaning the data by correcting missing values and formatting issues, identifying the top-rated brands, categorizing perfumes based on their popularity, and examining how the length of perfume names correlates with their ratings. The project also involved analyzing the most popular notes for Chanel perfumes and designing recommendations for perfumes similar to Chanel No.5 based on note combinations and popularity.
  
 - **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `data cleaning`, `Data visualization`.
 
@@ -59,7 +69,7 @@ Additionally, the project leverages GPU acceleration with cuDF and cuGraph to ex
 
 - **Projects:**
   
-  - `Olympic Games Dashboard`: The project uses interactive Tableau dashboards to analyze Olympic data, focusing on athlete physical attributes and country performance. It examines variations in attributes such as age, height, and weight across different sports categories and their relationship with medal wins. Additionally, it investigates the impact of hosting the Olympics on a country's medal count, showing how this effect has evolved over time.
+  - `Olympic Games Dashboard`: The project used interactive Tableau dashboards to analyze Olympic data, focusing on athlete physical attributes and country performance. It examined variations in attributes such as age, height, and weight across different sports categories and their relationship with medal wins. Additionally, it investigated the impact of hosting the Olympics on a country's medal count, showing how this effect has evolved over time.
 
 - **Skills aquired:** `Tableau`, `Data visualization`, `Use of visual variables (color, size, shape)`, `Techniques for visualizing multivariate data`, `Storytelling with data visualizations`.
 
@@ -68,13 +78,16 @@ Additionally, the project leverages GPU acceleration with cuDF and cuGraph to ex
 
 - **Folder:** `Advanced Programming`
   
-- **Description:**
+- **Description:** This course delved into advanced programming concepts. We explored code reusability, style guides, and linting, along with practical time series analysis using Pandas. Emphasis was placed on documentation and testing through unit, functional, and integration tests with pytest. The curriculum included version control with Git and  software deployment using Conda virtual environments, time-series analysis for decomposition and forecasting, and tackling big data challenges with Dask. Hands-on practice was facilitated through Jupyter Notebooks provided for each module.
+Class-material: https://gitlab.com/adpro1/adpro2024
   
 - **Projects:**
   
   - `Project Icaras`: This project focused on the comprehensive analysis of commercial air travel data, with an emphasis on sustainability. Utilizing a dataset from the International Air Transport Association, the project aimed to provide insights into flight patterns, airplane usage, and potential decarbonization strategies. Key functionalities included the calculation of distances between airports, plotting of flight routes, and the use of an LLM for aircraft and airport information.
+    
+  - `Audio-Transcription-Summarization`: In this project, we developed a Python tool for text extraction and summarization. We implemented functionality to extract text from audio files or YouTube links using WhisperAI and provided options for summarization using GPT-3.5-turbo. The tool supports different summarization styles and integrates these features into a cohesive solution.
 
-- **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `Data visualization`, `Machine learning`, `API integration`, `Unit testing`, `Conda environment management`, `Documentation with Sphinx`, `Git`, `GitLab`.
+- **Skills acquired:** `Python programming`, `Object-oriented programming`, `Data analysis`, `Pandas`, `Code reusability`, `Style guides`, `Linting`, `Pytest`, `Unit testing`, `Version control`, `Git`, `Virtual environments`, `Conda`, `Big data`, `Dask`, `Sphinx`.
 
 
 ### Network Analytics
