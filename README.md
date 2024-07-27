@@ -2,7 +2,7 @@
 
 Welcome to my GitHub repository showcasing projects from my MSc Business Analytics studies. This repository features the coding work from various programming-intensive courses completed during the program.
 
-## Repository Structure
+## 📁 Repository Structure
 
 The repository is organized into folders, each corresponding to a specific course. Inside these folders, you'll find:
 
@@ -12,7 +12,7 @@ The repository is organized into folders, each corresponding to a specific cours
 To navigate the repository, simply browse to the relevant course folder to view the associated projects and materials. Each project includes its own README file with detailed instructions on setup and usage.
 
 
-## Disclaimer
+## ⚠ Disclaimer
 
 This repository contains projects and assignments completed during my master's studies in Business Analytics at NOVA SBE. The purpose of this repository is to showcase my work, demonstrate my skills, and provide examples of my coding and analytical abilities.
 
@@ -29,7 +29,7 @@ I am committed to upholding the highest standards of academic integrity. The mat
 By accessing and using the contents of this repository, you agree to adhere to these guidelines and to uphold the principles of academic honesty and integrity.
 
 
-## Courses and Projects
+## 📚 Courses and Projects
 
 Below is a list of the courses, each represented in different folders within this repository:
 
