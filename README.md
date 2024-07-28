@@ -135,24 +135,26 @@ Class-material: https://gitlab.com/adpro1/adpro2024
 - **Skills acquired:** `JavaScript`, `DOM manipulation`, `dynamic content`, `fetch API`, `Promises`, `async/await`, `HTML structure`, `CSS integration`.
 
 
-### Machine Learning -- TODO --
+### Machine Learning
 
 - **Folder:** `Machine Learning`
   
-- **Description:**
+- **Description:** This course equipped me with the skills to approach business problems analytically and interact competently on topics of machine learning and advanced analytics. Through hands-on experience, I performed machine learning tasks, building end-to-end ML workflows. Embracing a learning-by-doing culture, I applied ML algorithms to real-world business cases, enhancing my ability to build, improve, and communicate ML pipelines effectively.
   
 - **Projects:**
   
-  - ´Project´: Brief description
+  - ´ABC_Insurance´: This project involved analyzing customer data for ABC Insurance to understand and address customer churn and static/faltering customer lifetime value. It included performing exploratory data analysis to assess data quality, building predictive models to estimate customer value based on characteristics, and creating models to predict customer churn. Recommendations for improving customer retention and marketing strategies are provided based on the analysis.
  
-  - ´Project´: Brief description
+  - ´FarTrend´: This project involved analyzing customer data for FarTrend, an e-commerce company, to improve personalized marketing and predict future purchases. It includes exploratory data analysis, customer segmentation using KMeans and Agglomerative Clustering, and developing an item-based collaborative filtering recommendation system. The project aims to enhance customer engagement by delivering tailored marketing campaigns and product recommendations.
  
-  - ´Project´: Brief description
+  - ´VinifyTech´: This project from VinifyTech focused on leveraging machine learning algorithms to analyze and predict wine quality based on chemical composition data. By utilizing models like Decision Trees, Random Forests, SGD Classifiers, and Support Vector Classifiers, the project explores the intricate relationships between various wine attributes and their quality ratings. The comprehensive approach includes data cleaning, exploratory data analysis, feature engineering, and hyperparameter optimization, all aimed at enhancing the precision and reliability of wine quality predictions.
  
-  - ´Project´: Brief description
+  - ´Deeplearing_classification´: This project involved developing and optimizing deep learning models to classify business photos from the Yelp dataset. It included training a deep neural network, addressing overfitting issues, defining and evaluating a convolutional neural network (CNN), and applying transfer learning with various pre-trained models to enhance performance. The task aimed to compare model accuracies and losses to determine the best approach for photo classification.
  
-  - ´Project´: Brief description
+  - ´Deeplearning_sentimentAnalysis´: This project involved classifying Tweets into emotions using deep learning techniques, including RNN and LSTM models, and comparing their performance with pretrained word embeddings, BERT models, and state-of-the-art LLMs from Cohere. It focused on evaluating the impact of model complexity and pretrained embeddings on classification accuracy, optimizing performance through fine-tuning, and balancing complexity with generalization capabilities. Through this project, the task aimed to identify the most effective model and embedding combination for emotion classification.
  
-  - ´Project´: Brief description
+  - ´# BloodCell_AI´: This final project of the course focused on the precise identification and classification of blood cell subtypes such as Eosinophils, Lymphocytes, Monocytes, and Neutrophils. Using Convolutional Neural Networks (CNNs) as a baseline, we implemented advanced models and fine-tuned hyperparameters to optimize performance. We also explored Transfer Learning with pre-trained models and leveraged Vision Transformers (ViTs) for improved accuracy. By employing rigorous data handling protocols and various model architectures, we aimed to achieve robust and accurate diagnostics for blood cell classification.
 
-- **Skills acquired:** 
+- **Skills acquired:** Here's the refined list with duplicates and similar terms removed:
+
+- **Skills acquired:** `Exploratory Data Analysis (EDA)`, `Data Cleaning`, `Data Quality Assessment`, `Feature Engineering`, `Predictive Modeling`, `Model Evaluation`, `Hyperparameter Tuning`, `Clustering`, `Customer Segmentation`, `Recommendation Systems`, `Collaborative Filtering`, `Decision Trees`, `Random Forest`, `Support Vector Machines (SVM)`, `Stochastic Gradient Descent (SGD)`, `Deep Learning`, `Convolutional Neural Networks (CNN)`, `Transfer Learning`, `Vision Transformers`, `Recurrent Neural Networks (RNN)`, `Long Short-Term Memory (LSTM)`, `BERT`, `TensorFlow`,`Keras`.
