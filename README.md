@@ -1,4 +1,4 @@
-# GitHub Repository for MSc Business Analytics Program
+# Repository for MSc Business Analytics Program - Projects
 
 Welcome to my GitHub repository showcasing projects from my MSc Business Analytics studies. This repository features the coding work from various programming-intensive courses completed during the program.
 
