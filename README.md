@@ -42,9 +42,9 @@ Below is a list of the courses, each represented in different folders within thi
   - 🩸 `BloodCell AI`: [Jump here](https://github.com/hkuennemann/MSc_BA_Projects/tree/main/Machine%20Learning/6.BloodCellAI)
 
 
-### 📊 Advanced Data Analytics
+### 📊 Advanced Data Analysis
 
-- **Folder:** `Advanced Data Analytics`
+- **Folder:** `Advanced Data Analysis`
   
 - **Description:** The course focused on advanced data analysis techniques and their applications in machine learning. It began with programming for data analysis, progressed through distributed data analysis and SQL, and covered key concepts such as curve fitting and regression. Students delved into modeling dynamic systems, dimensionality reduction, classification, clustering, and distributed machine learning, equipping students with a broad array of techniques for handling various types of data. Finally, it introduced graph algorithms and cloud-based data analysis, highlighting modern approaches to managing and analyzing large datasets.
   
