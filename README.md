@@ -3,7 +3,7 @@
 Welcome to my GitHub repository showcasing projects from my MSc Business Analytics studies. This repository features the coding work from various programming-intensive courses completed during the program.
 
 Table of Contents
-- [Repository Structure](#repository-structure)
+- [Repository Structure](## 📁 Repository Structure)
 - [Disclaimer](#disclaimer)
 - [Courses and Projects](#courses-and-projects)
   - [Highlighted Projects](#highlighted-projects)
