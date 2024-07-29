@@ -37,9 +37,9 @@ Veritasium.abridged_summary
 
 ## Contributors
 
-* Hendrik Künnemann - 57995
-* Guilherme de Oliveira Raimundo - 58053
-* Tom Göring - 58535
+* Hendrik Künnemann
+* Guilherme de Oliveira Raimundo
+* Tom Göring
 
 ## License
 
