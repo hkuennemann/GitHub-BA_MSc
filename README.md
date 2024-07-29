@@ -32,16 +32,14 @@ Below is a list of the courses, each represented in different folders within thi
 ### 🌟 Highlighted Projects
 
 - **Advanced Data Analysis**
-  - 💰 `Bitcoin analysis`
+  - 💰 `Bitcoin analysis`: [Jump here](https://github.com/hkuennemann/MSc_BA_Projects/tree/main/Advanced%20Data%20Analysis/4.Bitcoin_analysis)
     
 - **Advanced Programming**
-  - 🛩️ `Project Icaras`
+  - 🛩️ `Project Icaras`: [Jump here](https://github.com/hkuennemann/MSc_BA_Projects/tree/main/Advanced%20Programming/Project%20Icaras)
     
 - **Machine Learning**
-  - 🏢 `ABC Insurance`
-  - 🍷 `VinifyTech`
-  - 💬 `Deep-learning sentiment analysis`
-  - 🩸 `BloodCell AI`
+  - 🍷 `VinifyTech`: [Jump here](https://github.com/hkuennemann/MSc_BA_Projects/tree/main/Machine%20Learning/3.VinifyTech)
+  - 🩸 `BloodCell AI`: [Jump here](https://github.com/hkuennemann/MSc_BA_Projects/tree/main/Machine%20Learning/6.BloodCellAI)
 
 
 ### 📊 Advanced Data Analytics
@@ -150,7 +148,7 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
   
 - **Projects:**
   
-  - 🏢 `ABC Insurance (🌟)`: I analyzed customer data for ABC Insurance (fictional) to address customer churn and declining lifetime value. This involved exploratory data analysis to assess data quality, building predictive models to estimate customer value based on characteristics, and creating models to predict churn. Based on my analysis, I provided recommendations to improve customer retention and marketing strategies.
+  - 🏢 `ABC Insurance`: I analyzed customer data for ABC Insurance (fictional) to address customer churn and declining lifetime value. This involved exploratory data analysis to assess data quality, building predictive models to estimate customer value based on characteristics, and creating models to predict churn. Based on my analysis, I provided recommendations to improve customer retention and marketing strategies.
  
   - 🛒 `FarTrend`: For FarTrend, a fictional e-commerce company, I analyzed customer data to enhance personalized marketing and predict future purchases. I conducted exploratory data analysis, performed customer segmentation using KMeans and Agglomerative Clustering, and developed an item-based collaborative filtering recommendation system. The motivation of this project was to boost customer engagement through tailored marketing campaigns and product recommendations.
  
@@ -158,7 +156,7 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
 
   - 📸 `Deep-learing classification`: I developed and optimized deep learning models to classify business photos from the Yelp dataset. This included training a deep neural network, addressing overfitting issues, defining and evaluating a convolutional neural network (CNN), and applying transfer learning with pre-trained models to enhance performance. The task aimed to compare model accuracies and losses to identify the best approach for photo classification.
  
-  - 💬 `Deep-learning sentiment analysis (🌟)`: Here, I worked on classifying Tweets into emotions using deep learning techniques, including RNN and LSTM models. I compared their performance with pretrained word embeddings, BERT models, and state-of-the-art LLMs from Cohere. The focus was on evaluating model complexity and embedding impact on classification accuracy, optimizing performance through fine-tuning, and finding the most effective model and embedding combination for emotion classification.
+  - 💬 `Deep-learning sentiment analysis`: Here, I worked on classifying Tweets into emotions using deep learning techniques, including RNN and LSTM models. I compared their performance with pretrained word embeddings, BERT models, and state-of-the-art LLMs from Cohere. The focus was on evaluating model complexity and embedding impact on classification accuracy, optimizing performance through fine-tuning, and finding the most effective model and embedding combination for emotion classification.
  
   - 🩸 `BloodCell AI (🌟)`: In this final project, I focused on identifying and classifying blood cell subtypes such as Eosinophils, Lymphocytes, Monocytes, and Neutrophils. Using Convolutional Neural Networks (CNNs) as a baseline, I implemented advanced models, fine-tuned hyperparameters, and explored Transfer Learning with pre-trained models and Vision Transformers (ViTs). The aim was to achieve robust and accurate diagnostics for blood cell classification through rigorous data handling and model optimization.
 
