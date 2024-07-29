@@ -1,5 +1,4 @@
-# group-assignment-part1
-
+# VinifyTech
 
 
 ## Getting started
