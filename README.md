@@ -29,27 +29,41 @@ By accessing and using the contents of this repository, you agree to adhere to t
 
 Below is a list of the courses, each represented in different folders within this repository:
 
+### 🌟 Highlighted Projects
 
-### Advanced Data Analytics
+- **Advanced Data Analysis**
+  - 💰 `Bitcoin analysis`
+    
+- **Advanced Programming**
+  - 🛩️ `Project Icaras`
+    
+- **Machine Learning**
+  - 🏢 `ABC Insurance`
+  - 🍷 `VinifyTech`
+  - 💬 `Deep-learning sentiment analysis`
+  - 🩸 `BloodCell AI`
+
+
+### 📊 Advanced Data Analytics
 
 - **Folder:** `Advanced Data Analytics`
   
 - **Description:** The course focused on advanced data analysis techniques and their applications in machine learning. It began with programming for data analysis, progressed through distributed data analysis and SQL, and covered key concepts such as curve fitting and regression. Students delved into modeling dynamic systems, dimensionality reduction, classification, clustering, and distributed machine learning, equipping students with a broad array of techniques for handling various types of data. Finally, it introduced graph algorithms and cloud-based data analysis, highlighting modern approaches to managing and analyzing large datasets.
   
 - **Projects:**
-  - `Olympic Games analysis`: Analyzed Olympic Games data using Python and Pandas to explore athlete participation, medal counts, and trends. Tasks included examining age and medal counts of top athletes, comparing medal counts to country populations, and reimplementing analyses with Spark SQL.
+  - 🏅 `Olympic Games analysis`: Analyzed Olympic Games data using Python and Pandas to explore athlete participation, medal counts, and trends. Tasks included examining age and medal counts of top athletes, comparing medal counts to country populations, and reimplementing analyses with Spark SQL.
     
-  - `Children weight prediction`: Developed a model to predict children's weight based on age using the National Health and Nutrition Examination Survey data. Included linear and polynomial regression models (degrees 1-10) to find the best fit for the weight-age relationship.
+  - 👶 `Children weight prediction`: Developed a model to predict children's weight based on age using the National Health and Nutrition Examination Survey data. Included linear and polynomial regression models (degrees 1-10) to find the best fit for the weight-age relationship.
     
-  - `Cancer classification`: The project was divided into two parts. First, I analyzed the Breast Cancer dataset, classifying tumors as malignant or benign based on digitized breast mass features. I reduced the dataset from thirty dimensions to two using PCA and t-SNE, and compared the results to assess tumor type separation. I also normalized the input features before applying these techniques.
+  - 🔬 `Cancer classification`: The project was divided into two parts. First, I analyzed the Breast Cancer dataset, classifying tumors as malignant or benign based on digitized breast mass features. I reduced the dataset from thirty dimensions to two using PCA and t-SNE, and compared the results to assess tumor type separation. I also normalized the input features before applying these techniques.
 In the second part, I examined internet usage data from 1995 to 2012, fitting a logistic growth model to predict user growth. I visualized the model’s fit with the actual data, interpreted the logistic function parameters, and evaluated the model’s adequacy by computing and plotting residuals, as well as calculating 95% confidence intervals for the parameters.
 
-  - `Bitcoin analysis`: I analyzed Bitcoin transactions to understand cryptocurrency behavior. This included comparing Spark and Pandas for computing transaction statistics, such as identifying the largest transactions and tracking trends over time. I created indices to query Bitcoin addresses for details like account balances and average transaction values. I also built classification models to label addresses based on transaction data and used K-means clustering to group addresses without predefined labels. Additionally, I utilized GPU acceleration with cuDF and cuGraph to speed up network analysis and centrality metric calculations, deepening the understanding of Bitcoin addresses' roles in transactions.
+  - 💰 `Bitcoin analysis (🌟)`: I analyzed Bitcoin transactions to understand cryptocurrency behavior. This included comparing Spark and Pandas for computing transaction statistics, such as identifying the largest transactions and tracking trends over time. I created indices to query Bitcoin addresses for details like account balances and average transaction values. I also built classification models to label addresses based on transaction data and used K-means clustering to group addresses without predefined labels. Additionally, I utilized GPU acceleration with cuDF and cuGraph to speed up network analysis and centrality metric calculations, deepening the understanding of Bitcoin addresses' roles in transactions.
 
 - **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `Spark`, `regression`, `Dimensionality reduction (PCA, t-SNE)`, `classification techniques`, `clustering techniques`, `Data visualization`, `GPU acceleration (cuDF, cuML, cuGraph)`.
 
 
-### Data Curation
+### 🗂️ Data Curation
 
 - **Folder:** `Data Curation`
   
@@ -57,22 +71,22 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
 
 - **Projects:**
   
-  - `Intro data curation`: This project served as an introduction to fundamental Python concepts. I decoded geohashed locations using coordinates and DJIA values, calculated Euler's number with factorials, estimated Pi using Monte Carlo simulations, and applied convolution filters to an image with `numpy` and `Pillow`.
+  - 🔢 `Intro data curation`: This project served as an introduction to fundamental Python concepts. I decoded geohashed locations using coordinates and DJIA values, calculated Euler's number with factorials, estimated Pi using Monte Carlo simulations, and applied convolution filters to an image with `numpy` and `Pillow`.
 
-  - `Covid analysis`: I analyzed and cleaned COVID-19 daily reports using `pandas`. I worked with a dataset containing daily COVID-19 statistics for various regions, performing tasks such as reading and cleaning the data, filtering records for a specific year, and analyzing average and median values. I identified outliers, calculated correlations, created new columns, computed custom metrics, and categorized data into discrete bins for error analysis.
+  - 🦠 `Covid analysis`: I analyzed and cleaned COVID-19 daily reports using `pandas`. I worked with a dataset containing daily COVID-19 statistics for various regions, performing tasks such as reading and cleaning the data, filtering records for a specific year, and analyzing average and median values. I identified outliers, calculated correlations, created new columns, computed custom metrics, and categorized data into discrete bins for error analysis.
 
-  - `Movie recommendation`: I built a (very simple) movie recommendation system using the MovieLens dataset. I cleaned the data, analyzed movie ratings, and categorized movies based on their release years and developed a simple system to suggest movies based on user preferences.
+  - 🎬 `Movie recommendation`: I built a (very simple) movie recommendation system using the MovieLens dataset. I cleaned the data, analyzed movie ratings, and categorized movies based on their release years and developed a simple system to suggest movies based on user preferences.
 
-  - `Titanic analysis`: Here, I analyzed the Titanic dataset, which included detailed passenger information. I focused on data cleaning and answering questions about passenger demographics, survival rates, and fare differences. My tasks involved correcting erroneous values, calculating percentages and averages, and comparing survival rates across different passenger groups and fare quintiles.
+  - 🚢 `Titanic analysis`: Here, I analyzed the Titanic dataset, which included detailed passenger information. I focused on data cleaning and answering questions about passenger demographics, survival rates, and fare differences. My tasks involved correcting erroneous values, calculating percentages and averages, and comparing survival rates across different passenger groups and fare quintiles.
 
-  - `Cars analysis`: I analyzed used car listings on the OLX platform in Portugal. The dataset was split into three parts, each with specific errors I resolved before analysis. I cleaned and merged the datasets, and addressed questions about car prices, popular models, and sales statistics to understand the market dynamics on OLX.
+  - 🚗 `Cars analysis`: I analyzed used car listings on the OLX platform in Portugal. The dataset was split into three parts, each with specific errors I resolved before analysis. I cleaned and merged the datasets, and addressed questions about car prices, popular models, and sales statistics to understand the market dynamics on OLX.
 
-  - `Fragrance analysis`: I examined a dataset of perfume listings to explore ratings, popularity, and note preferences. I cleaned the data by addressing missing values and formatting issues, identified top-rated brands, and categorized perfumes by popularity. I examined how the length of perfume names correlated with ratings, analyzed popular notes for Chanel perfumes, and designed recommendations for perfumes similar to Chanel No.5 based on note combinations and popularity.
+  - 🌸 `Fragrance analysis`: I examined a dataset of perfume listings to explore ratings, popularity, and note preferences. I cleaned the data by addressing missing values and formatting issues, identified top-rated brands, and categorized perfumes by popularity. I examined how the length of perfume names correlated with ratings, analyzed popular notes for Chanel perfumes, and designed recommendations for perfumes similar to Chanel No.5 based on note combinations and popularity.
  
 - **Skills acquired:** `Python programming`, `Data analysis`, `Pandas`, `Numpy`, `Matplotlib`, `data cleaning`, `Data visualization`.
 
 
-### Data Visualization
+### 📈 Data Visualization
 
 - **Folder:** `Data Visualization`
   
@@ -80,12 +94,12 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
 
 - **Projects:**
   
-  - `Olympic Games Dashboard`: The project used interactive Tableau dashboards to analyze Olympic data, focusing on athlete physical attributes and country performance. It examined variations in attributes such as age, height, and weight across different sports categories and their relationship with medal wins. Additionally, it investigated the impact of hosting the Olympics on a country's medal count, showing how this effect has evolved over time.
+  - 🏅 `Olympic Games Dashboard`: The project used interactive Tableau dashboards to analyze Olympic data, focusing on athlete physical attributes and country performance. It examined variations in attributes such as age, height, and weight across different sports categories and their relationship with medal wins. Additionally, it investigated the impact of hosting the Olympics on a country's medal count, showing how this effect has evolved over time.
 
 - **Skills aquired:** `Tableau`, `Data visualization`, `Use of visual variables (color, size, shape)`, `Techniques for visualizing multivariate data`, `Storytelling with data visualizations`.
 
 
-### Advanced Programming
+### 🖥️ Advanced Programming
 
 - **Folder:** `Advanced Programming`
   
@@ -93,14 +107,14 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
   
 - **Projects:**
   
-  - `Project Icaras`: This project focused on the comprehensive analysis of commercial air travel data, with an emphasis on sustainability. Utilizing a dataset from the International Air Transport Association, the project aimed to provide insights into flight patterns, airplane usage, and potential decarbonization strategies. Key functionalities included the calculation of distances between airports, plotting of flight routes, and the use of an LLM for aircraft and airport information.
+  - 🛩️ `Project Icaras (🌟)`: This project focused on the comprehensive analysis of commercial air travel data, with an emphasis on sustainability. Utilizing a dataset from the International Air Transport Association, the project aimed to provide insights into flight patterns, airplane usage, and potential decarbonization strategies. Key functionalities included the calculation of distances between airports, plotting of flight routes, and the use of an LLM for aircraft and airport information.
     
-  - `Audio-Transcription-Summarization`: In this project, we developed a Python tool for text extraction and summarization. We implemented functionality to extract text from audio files or YouTube links using WhisperAI and provided options for summarization using GPT-3.5-turbo. The tool supports different summarization styles and integrates these features into a cohesive solution.
+  - 🎙️ `Audio-Transcription-Summarization`: In this project, we developed a Python tool for text extraction and summarization. We implemented functionality to extract text from audio files or YouTube links using WhisperAI and provided options for summarization using GPT-3.5-turbo. The tool supports different summarization styles and integrates these features into a cohesive solution.
 
 - **Skills acquired:** `Python programming`, `Object-oriented programming`, `Data analysis`, `Pandas`, `Code reusability`, `Style guides`, `Linting`, `Pytest`, `Unit testing`, `Version control`, `Git`, `Virtual environments`, `Conda`, `Big data`, `Dask`, `Sphinx`.
 
 
-### Network Analytics
+### 🌐 Network Analytics
 
 - **Folder:** `Network Analytics`
   
@@ -108,14 +122,14 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
   
 - **Projects:**
   
-  - ´Movie_networks´: This project focused on evaluating the significance of movies released between 2010 and 2019 using data analysis and network analysis techniques. It involved preparing and manipulating movie and actor datasets, creating visualizations to uncover patterns, and constructing and analyzing bipartite graphs to explore connections between movies and actors. The project also included calculating various centrality measures to determine the most influential movies and actors, as well as comparing network properties with those of random graphs. 
+  - 🎬 `Movie networks`: This project focused on evaluating the significance of movies released between 2010 and 2019 using data analysis and network analysis techniques. It involved preparing and manipulating movie and actor datasets, creating visualizations to uncover patterns, and constructing and analyzing bipartite graphs to explore connections between movies and actors. The project also included calculating various centrality measures to determine the most influential movies and actors, as well as comparing network properties with those of random graphs. 
  
-  - `Dating_platforms`: This project analyzed the behavior of users on an online dating platform by examining "likes" and invites between members. It involved building and evaluating directed and undirected graphs to represent invites and likes networks, respectively, and exploring concepts such as homophily, clustering coefficients, and network structures. The project also included testing hypotheses about network properties and comparing the dating platform's network to theoretical models of online networks.
+  - ❤️ `Dating platforms`: This project analyzed the behavior of users on an online dating platform by examining "likes" and invites between members. It involved building and evaluating directed and undirected graphs to represent invites and likes networks, respectively, and exploring concepts such as homophily, clustering coefficients, and network structures. The project also included testing hypotheses about network properties and comparing the dating platform's network to theoretical models of online networks.
 
 - **Skills acquired**: `Network analysis`, `Centrality measures`, `Graph theory`, `R programming`, `igraph package`, `ggplot2 package`. 
 
 
-### Web & Cloud Computing
+### ☁️ Web & Cloud Computing
 
 - **Folder:** `Web & Cloud Computing`
   
@@ -123,12 +137,12 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
   
 - **Projects:**
   
-  - `League Lense`: In this project I developed a dynamic football website using JavaScript, HTML, and CSS, integrating data from the API-Football (RESTful). The site enabled users to select specific seasons and leagues to view detailed standings, top scorers, top assist providers, and matchday results. Additionally, users could explore individual games for more in-depth information, including the starting 11 players and their formations.
+  - ⚽ `League Lense`: In this project I developed a dynamic football website using JavaScript, HTML, and CSS, integrating data from the API-Football (RESTful). The site enabled users to select specific seasons and leagues to view detailed standings, top scorers, top assist providers, and matchday results. Additionally, users could explore individual games for more in-depth information, including the starting 11 players and their formations.
 
 - **Skills acquired:** `JavaScript`, `DOM manipulation`, `dynamic content`, `fetch API`, `Promises`, `async/await`, `HTML structure`, `CSS integration`.
 
 
-### Machine Learning
+### 🤖 Machine Learning
 
 - **Folder:** `Machine Learning`
   
@@ -136,16 +150,16 @@ In the second part, I examined internet usage data from 1995 to 2012, fitting a 
   
 - **Projects:**
   
-  - `ABC_Insurance`: I analyzed customer data for ABC Insurance (fictional) to address customer churn and declining lifetime value. This involved exploratory data analysis to assess data quality, building predictive models to estimate customer value based on characteristics, and creating models to predict churn. Based on my analysis, I provided recommendations to improve customer retention and marketing strategies.
+  - 🏢 `ABC Insurance (🌟)`: I analyzed customer data for ABC Insurance (fictional) to address customer churn and declining lifetime value. This involved exploratory data analysis to assess data quality, building predictive models to estimate customer value based on characteristics, and creating models to predict churn. Based on my analysis, I provided recommendations to improve customer retention and marketing strategies.
  
-  - `FarTrend`: For FarTrend, a fictional e-commerce company, I analyzed customer data to enhance personalized marketing and predict future purchases. I conducted exploratory data analysis, performed customer segmentation using KMeans and Agglomerative Clustering, and developed an item-based collaborative filtering recommendation system. The motivation of this project was to boost customer engagement through tailored marketing campaigns and product recommendations.
+  - 🛒 `FarTrend`: For FarTrend, a fictional e-commerce company, I analyzed customer data to enhance personalized marketing and predict future purchases. I conducted exploratory data analysis, performed customer segmentation using KMeans and Agglomerative Clustering, and developed an item-based collaborative filtering recommendation system. The motivation of this project was to boost customer engagement through tailored marketing campaigns and product recommendations.
  
-  - `VinifyTech`: This project focused on leveraging machine learning algorithms to analyze and predict wine quality based on chemical composition data. By utilizing models like Decision Trees, Random Forests, SGD Classifiers, and Support Vector Classifiers, the project explores the intricate relationships between various wine attributes and their quality ratings. I focused on data cleaning, exploratory data analysis, feature engineering, and hyperparameter optimization to improve the accuracy of wine quality predictions.
+  - 🍷 `VinifyTech (🌟)`: This project focused on leveraging machine learning algorithms to analyze and predict wine quality based on chemical composition data. By utilizing models like Decision Trees, Random Forests, SGD Classifiers, and Support Vector Classifiers, the project explores the intricate relationships between various wine attributes and their quality ratings. I focused on data cleaning, exploratory data analysis, feature engineering, and hyperparameter optimization to improve the accuracy of wine quality predictions.
 
-  - `Deeplearing_classification`: I developed and optimized deep learning models to classify business photos from the Yelp dataset. This included training a deep neural network, addressing overfitting issues, defining and evaluating a convolutional neural network (CNN), and applying transfer learning with pre-trained models to enhance performance. The task aimed to compare model accuracies and losses to identify the best approach for photo classification.
+  - 📸 `Deep-learing classification`: I developed and optimized deep learning models to classify business photos from the Yelp dataset. This included training a deep neural network, addressing overfitting issues, defining and evaluating a convolutional neural network (CNN), and applying transfer learning with pre-trained models to enhance performance. The task aimed to compare model accuracies and losses to identify the best approach for photo classification.
  
-  - `Deeplearning_sentimentAnalysis`: Here, I worked on classifying Tweets into emotions using deep learning techniques, including RNN and LSTM models. I compared their performance with pretrained word embeddings, BERT models, and state-of-the-art LLMs from Cohere. The focus was on evaluating model complexity and embedding impact on classification accuracy, optimizing performance through fine-tuning, and finding the most effective model and embedding combination for emotion classification.
+  - 💬 `Deep-learning sentiment analysis (🌟)`: Here, I worked on classifying Tweets into emotions using deep learning techniques, including RNN and LSTM models. I compared their performance with pretrained word embeddings, BERT models, and state-of-the-art LLMs from Cohere. The focus was on evaluating model complexity and embedding impact on classification accuracy, optimizing performance through fine-tuning, and finding the most effective model and embedding combination for emotion classification.
  
-  - `BloodCell_AI`: In this final project, I focused on identifying and classifying blood cell subtypes such as Eosinophils, Lymphocytes, Monocytes, and Neutrophils. Using Convolutional Neural Networks (CNNs) as a baseline, I implemented advanced models, fine-tuned hyperparameters, and explored Transfer Learning with pre-trained models and Vision Transformers (ViTs). The aim was to achieve robust and accurate diagnostics for blood cell classification through rigorous data handling and model optimization.
+  - 🩸 `BloodCell AI (🌟)`: In this final project, I focused on identifying and classifying blood cell subtypes such as Eosinophils, Lymphocytes, Monocytes, and Neutrophils. Using Convolutional Neural Networks (CNNs) as a baseline, I implemented advanced models, fine-tuned hyperparameters, and explored Transfer Learning with pre-trained models and Vision Transformers (ViTs). The aim was to achieve robust and accurate diagnostics for blood cell classification through rigorous data handling and model optimization.
 
 - **Skills acquired:** `Exploratory Data Analysis (EDA)`, `Data Cleaning`, `Data Quality Assessment`, `Feature Engineering`, `Predictive Modeling`, `Model Evaluation`, `Hyperparameter Tuning`, `Clustering`, `Customer Segmentation`, `Recommendation Systems`, `Collaborative Filtering`, `Decision Trees`, `Random Forest`, `Support Vector Machines (SVM)`, `Stochastic Gradient Descent (SGD)`, `Deep Learning`, `Convolutional Neural Networks (CNN)`, `Transfer Learning`, `Vision Transformers`, `Recurrent Neural Networks (RNN)`, `Long Short-Term Memory (LSTM)`, `BERT`, `TensorFlow`,`Keras`.
