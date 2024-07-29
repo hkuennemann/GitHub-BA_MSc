@@ -1,6 +1,4 @@
-# group-assignment-part2
-
-
+# BloodCell AI
 
 ## Getting started
 
