@@ -155,6 +155,4 @@ Class-material: https://gitlab.com/adpro1/adpro2024
  
   - ´# BloodCell_AI´: This final project of the course focused on the precise identification and classification of blood cell subtypes such as Eosinophils, Lymphocytes, Monocytes, and Neutrophils. Using Convolutional Neural Networks (CNNs) as a baseline, we implemented advanced models and fine-tuned hyperparameters to optimize performance. We also explored Transfer Learning with pre-trained models and leveraged Vision Transformers (ViTs) for improved accuracy. By employing rigorous data handling protocols and various model architectures, we aimed to achieve robust and accurate diagnostics for blood cell classification.
 
-- **Skills acquired:** Here's the refined list with duplicates and similar terms removed:
-
 - **Skills acquired:** `Exploratory Data Analysis (EDA)`, `Data Cleaning`, `Data Quality Assessment`, `Feature Engineering`, `Predictive Modeling`, `Model Evaluation`, `Hyperparameter Tuning`, `Clustering`, `Customer Segmentation`, `Recommendation Systems`, `Collaborative Filtering`, `Decision Trees`, `Random Forest`, `Support Vector Machines (SVM)`, `Stochastic Gradient Descent (SGD)`, `Deep Learning`, `Convolutional Neural Networks (CNN)`, `Transfer Learning`, `Vision Transformers`, `Recurrent Neural Networks (RNN)`, `Long Short-Term Memory (LSTM)`, `BERT`, `TensorFlow`,`Keras`.
