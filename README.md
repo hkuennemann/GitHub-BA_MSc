@@ -54,7 +54,7 @@ Below is a list of the courses, each represented in different folders within thi
     [🔗 Go to project](https://github.com/hkuennemann/MSc_BA_Projects/tree/main/Advanced%20Data%20Analysis/1.OlympicGames_analysis)
     
   - 👶 `Children weight prediction`: Developed a model to predict children's weight based on age using the National Health and Nutrition Examination Survey data. Included linear and polynomial regression models (degrees 1-10) to find the best fit for the weight-age relationship.
-  - 
+    
     [🔗 Go to project](https://github.com/hkuennemann/MSc_BA_Projects/tree/main/Advanced%20Data%20Analysis/2.Children_weight_prediction)
     
   - 🔬 `Cancer classification`: The project was divided into two parts. First, I analyzed the Breast Cancer dataset, classifying tumors as malignant or benign based on digitized breast mass features. I reduced the dataset from thirty dimensions to two using PCA and t-SNE, and compared the results to assess tumor type separation. I also normalized the input features before applying these techniques.
