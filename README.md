@@ -2,14 +2,10 @@
 
 Welcome to my GitHub repository showcasing projects from my MSc Business Analytics studies. This repository features the coding work from various programming-intensive courses completed during the program.
 
+
 ## 📁 Repository Structure
 
-The repository is organized into folders, each corresponding to a specific course. Inside these folders, you'll find:
-
-- **Projects:** Coding assignments and projects completed for the course.
-- **Class Materials:** Relevant materials such as lecture notes or example code, where applicable.
-
-To navigate the repository, simply browse to the relevant course folder to view the associated projects and materials. Each project includes its own README file with detailed instructions on setup and usage.
+The repository is organized into folders, each corresponding to a specific course. Inside these folders, you'll find coding assignments and projects completed for the course. To navigate the repository, simply browse to the relevant course folder to view the associated projects and materials.
 
 
 ## ⚠ Disclaimer
